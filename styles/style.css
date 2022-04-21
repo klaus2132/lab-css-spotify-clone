@@ -6,3 +6,102 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+
+
+.logo{
+    width: 150px;
+    height: 50px;
+}
+
+header{
+    background-image: url(../images/landing.jpg);
+    height: 650px;
+    background-size: cover;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+header p{
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color:black;
+}
+h3{
+    color: #00B172;
+}
+
+.what{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.speaker{
+    width: 100px;
+    height: 100px;
+}
+.hdMusic{
+    width: 100px;
+    height: 100px;
+}
+.devices{
+    width: 100px;
+    height: 100px;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.songs{
+    text-align: center;
+}
+
+.music{
+    text-align: center;
+}
+
+.device{
+    text-align: center;
+}
+
+.yeezy{
+    background-color: #00B172;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.kanye{
+    height: 400px;
+    width: 200px;
+}
+
